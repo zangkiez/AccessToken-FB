@@ -170,9 +170,9 @@ for i in phones:
 
 
 Name = str(datetime.now())
-os.makedirs(os.path.join('OUTPUT', Name) , exist_ok=True)
+os.makedirs(os.path.join('OUTPUT') , exist_ok=True)
 
-os.chdir(os.path.join('OUTPUT',Name))
+os.chdir(os.path.join('OUTPUT'))
 
 with open('Live.txt' , 'w') as file:
 	for i in Live:
